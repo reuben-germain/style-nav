@@ -19,7 +19,7 @@ body{
     color: white;
     display: grid;
     grid-template-columns: 20rem 1fr;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 nav{
@@ -46,7 +46,13 @@ nav{
 }
 
 .nav-list li.active{
-    background: var(--body-bg)
+    background: var(--body-bg);
+    position: relative;
+}
+
+.nav-list li.active::before,
+.nav-list li.active::after{
+    content: '';
 }
 
 .nav-list a{
