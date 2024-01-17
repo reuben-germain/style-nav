@@ -34,8 +34,17 @@ nav{
     padding: 0;
     list-style: none;
     display: grid;
-    gap: 2rem;
+    gap: 4rem;
     padding-block: 2rem;
+    font-size: 2rem;
+}
+
+.nav-list li{
+    background: pink;
+}
+
+.nav-list li.active{
+    background: red;
 }
 
 .nav-list a{
