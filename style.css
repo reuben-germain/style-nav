@@ -16,4 +16,7 @@ body{
     font-size: 1.25rem;
     background: var(--body-bg);
     color: white;
+    display: grid;
+    grid-template-columns: 20rem 1fr;
+    gap: 2rem;
 }
