@@ -12,6 +12,7 @@ html {
 }
 
 body{
+    min-height: 100vh;
     margin: 0;
     font-size: 1.25rem;
     background: var(--body-bg);
@@ -19,4 +20,8 @@ body{
     display: grid;
     grid-template-columns: 20rem 1fr;
     gap: 2rem;
+}
+
+nav{
+    background-color: var(--nav-bg);
 }
