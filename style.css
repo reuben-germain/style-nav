@@ -46,6 +46,7 @@ nav{
 }
 
 .nav-list li.active{
+    view-transition-name: activeNavTab;
     background: var(--body-bg);
     position: relative;
 }
