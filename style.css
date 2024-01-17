@@ -68,7 +68,7 @@ nav{
 }
 .nav-list li.active::after{
     border-radius: 0 100vw 0 0;
-    box-shadow: 10px -10px 0 10px red;
+    box-shadow: 10px -10px 0 10px var(--body-bg);
 
     bottom: calc(var(--border-radius) * -1);
 
