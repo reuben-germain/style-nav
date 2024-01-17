@@ -61,6 +61,13 @@ nav{
     border-radius: 100vw;
 }
 
+.nav-list li.active::before{
+    top: 0;
+}
+.nav-list li.active::after{
+    bottom: 0;
+}
+
 .nav-list a{
     color: white;
     text-decoration: none;
