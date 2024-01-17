@@ -33,4 +33,7 @@ nav{
     margin: 0;
     padding: 0;
     list-style: none;
+    display: grid;
+    gap: 2rem;
+    padding-block: 2rem;
 }
