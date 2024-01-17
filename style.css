@@ -52,20 +52,21 @@ nav{
 
 .nav-list li.active::before,
 .nav-list li.active::after{
+    --border-radius: 1rem;
     content: '';
     position: absolute;
-    width: 1rem;
-    height: 1rem;
+    width: var(--border-radius);
+    height: var(--border-radius);
     right: 0;
     background: red;
     border-radius: 100vw;
 }
 
 .nav-list li.active::before{
-    top: 0;
+    top: calc(var(--border-radius) * -1);
 }
 .nav-list li.active::after{
-    bottom: 0;
+    bottom: calc(var(--border-radius) * -1);
 }
 
 .nav-list a{
