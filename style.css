@@ -18,7 +18,7 @@ body{
     background: var(--body-bg);
     color: white;
     display: grid;
-    grid-template-columns: 20rem 1fr;
+    grid-template-columns: 15rem 1fr;
     gap: 4rem;
 }
 
@@ -52,7 +52,7 @@ nav{
 
 .nav-list li.active::before,
 .nav-list li.active::after{
-    --border-radius: 1rem;
+    --border-radius: 2rem;
     content: '';
     position: absolute;
     width: var(--border-radius);
