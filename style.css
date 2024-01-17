@@ -58,12 +58,13 @@ nav{
     width: var(--border-radius);
     height: var(--border-radius);
     right: 0;
-    background: red;
-    border-radius: 100vw;
+    background: var(--nav-bg);
 }
 
 .nav-list li.active::before{
     top: calc(var(--border-radius) * -1);
+    border-radius: 0 0 100vw 0;
+    box-shadow: 10px 10px 0 10px var(--body-bg);
 }
 .nav-list li.active::after{
     bottom: calc(var(--border-radius) * -1);
